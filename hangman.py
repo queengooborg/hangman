@@ -20,7 +20,7 @@ else:
     # python 2
     input = raw_input
     def output(msg='', end='\n'):
-        print msg+end,
+        print (msg+end),
 
         
 
@@ -56,7 +56,7 @@ def getMenuChoice(prompt, choices, label_func):
         output(prompt)
         for i in range(len(choices)):
             output("[%d] %s" % (i+1, label_func(choices[i])))
-        num = input('Your Choice(1-%d): ' % (len(choices)+1))
+        num = input('Your Choice(1-%d): ' % (len(choices)))
         try:
             choice = choices[int(num)-1]
         except(ValueError, IndexError):
