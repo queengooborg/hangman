@@ -15,7 +15,7 @@ try:
 except NameError:
     # python 3
     def output(msg='', end='\n'):
-        print(msg, end)
+        print(msg, end=end)
 else:
     # python 2
     input = raw_input
