@@ -116,6 +116,8 @@ class Hangman(object):
         self.hits = ''
         self.misses = ''
 
+		# XXX in multiplayer mode, 2 or more
+		# XXX players might use a random word
         if self.players == 1:
             self.randomWord()
         else:
