@@ -92,6 +92,8 @@ class Hangman(object):
         output("Welcome to Hangman!")
         output()
 
+		# XXX increase the range here
+		# XXX is there a max number of players?
         obj.players = getInt("How many players", 1, 2)
     
         if obj.players == 2:
@@ -116,6 +118,8 @@ class Hangman(object):
         self.hits = ''
         self.misses = ''
 
+		# XXX in multiplayer mode, 2 or more
+		# XXX players might use a random word
         if self.players == 1:
             self.randomWord()
         else:
@@ -192,6 +196,9 @@ class Hangman(object):
     def play(self):
         """Play one round of hangman
         """
+		
+		# XXX more changes to make here
+		# XXX guesser will change if they miss a letter
         self.clearScreen()
         self.printGallows()
         self.printWordDashes()
