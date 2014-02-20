@@ -1,0 +1,17 @@
+Multiplayer Menu
+	Local Game
+	Network Game
+		Host a Game
+			Computer asks for game name, then waits for players to join
+			Player can click "Start" and start the game after at least one other player has joined
+		Join a Game
+			Computer looks for available games and prints their names, which the player can pick from
+
+Game
+	Host picks a word, and tells the guest computers, but doesn't tell the players
+	Player 1 takes a turn, while the other players' computers wait for player 1's computer to send a signal
+	Player 1's computer sends a signal to the other computers, saying "Okay, I'm done.  I guessed ? (in)correctly" and to the next player's computer "Your turn.  I guessed ? (in)correctly"
+	Player 2 does the same thing as the above two lines.  Cycles through all the players repeatedly
+	When the last letter is guessed correctly, the player that guessed it is announced winner
+	Computers cycle through the players asking them if they want to leave or stay for the next game
+	If host leaves, the game will disconnect

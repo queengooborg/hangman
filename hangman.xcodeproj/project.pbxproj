@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		44B7C666189AFB650095992A /* dictionaries.cpython-32.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dictionaries.cpython-32.pyc"; sourceTree = "<group>"; };
+		44B7C667189AFB650095992A /* levels.cpython-32.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "levels.cpython-32.pyc"; sourceTree = "<group>"; };
+		44B7C668189AFB650095992A /* animals.dict */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = animals.dict; sourceTree = "<group>"; };
+		44B7C669189AFB650095992A /* common.dict */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = common.dict; sourceTree = "<group>"; };
+		44B7C66A189AFB650095992A /* dictionaries.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = dictionaries.py; sourceTree = "<group>"; };
+		44B7C66B189AFB650095992A /* easy.dict */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = easy.dict; sourceTree = "<group>"; };
+		44B7C66C189AFB650095992A /* hangman.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = hangman.py; sourceTree = "<group>"; };
+		44B7C66E189AFB650095992A /* checker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checker.png; sourceTree = "<group>"; };
+		44B7C66F189AFB650095992A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		44B7C671189AFB650095992A /* scale.fix.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scale.fix.js; sourceTree = "<group>"; };
+		44B7C672189AFB650095992A /* levels.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = levels.py; sourceTree = "<group>"; };
+		44B7C673189AFB650095992A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		44B7C674189AFB650095992A /* params.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = params.json; sourceTree = "<group>"; };
+		44B7C675189AFB650095992A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		44B7C677189AFB650095992A /* pygment_trac.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = pygment_trac.css; sourceTree = "<group>"; };
+		44B7C678189AFB650095992A /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4461D65E189AFB3A00B0308B = {
+			isa = PBXGroup;
+			children = (
+				44B7C665189AFB650095992A /* __pycache__ */,
+				44B7C668189AFB650095992A /* animals.dict */,
+				44B7C669189AFB650095992A /* common.dict */,
+				44B7C66A189AFB650095992A /* dictionaries.py */,
+				44B7C66B189AFB650095992A /* easy.dict */,
+				44B7C66C189AFB650095992A /* hangman.py */,
+				44B7C66D189AFB650095992A /* images */,
+				44B7C66F189AFB650095992A /* index.html */,
+				44B7C670189AFB650095992A /* javascripts */,
+				44B7C672189AFB650095992A /* levels.py */,
+				44B7C673189AFB650095992A /* LICENSE */,
+				44B7C674189AFB650095992A /* params.json */,
+				44B7C675189AFB650095992A /* README.md */,
+				44B7C676189AFB650095992A /* stylesheets */,
+			);
+			sourceTree = "<group>";
+		};
+		44B7C665189AFB650095992A /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				44B7C666189AFB650095992A /* dictionaries.cpython-32.pyc */,
+				44B7C667189AFB650095992A /* levels.cpython-32.pyc */,
+			);
+			path = __pycache__;
+			sourceTree = "<group>";
+		};
+		44B7C66D189AFB650095992A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				44B7C66E189AFB650095992A /* checker.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		44B7C670189AFB650095992A /* javascripts */ = {
+			isa = PBXGroup;
+			children = (
+				44B7C671189AFB650095992A /* scale.fix.js */,
+			);
+			path = javascripts;
+			sourceTree = "<group>";
+		};
+		44B7C676189AFB650095992A /* stylesheets */ = {
+			isa = PBXGroup;
+			children = (
+				44B7C677189AFB650095992A /* pygment_trac.css */,
+				44B7C678189AFB650095992A /* styles.css */,
+			);
+			path = stylesheets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4461D663189AFB3A00B0308B /* Python Hangman */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 4461D666189AFB3A00B0308B /* Build configuration list for PBXLegacyTarget "Python Hangman" */;
+			buildPhases = (
+			);
+			buildToolPath = /Library/Frameworks/Python.framework/Versions/2.7/bin/python;
+			dependencies = (
+			);
+			name = "Python Hangman";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Python Hangman";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		4461D65F189AFB3A00B0308B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Village Home Class and Nightwave Studios";
+			};
+			buildConfigurationList = 4461D662189AFB3A00B0308B /* Build configuration list for PBXProject "hangman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4461D65E189AFB3A00B0308B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4461D663189AFB3A00B0308B /* Python Hangman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4461D664189AFB3A00B0308B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4461D665189AFB3A00B0308B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4461D667189AFB3A00B0308B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4461D668189AFB3A00B0308B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4461D662189AFB3A00B0308B /* Build configuration list for PBXProject "hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4461D664189AFB3A00B0308B /* Debug */,
+				4461D665189AFB3A00B0308B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4461D666189AFB3A00B0308B /* Build configuration list for PBXLegacyTarget "Python Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4461D667189AFB3A00B0308B /* Debug */,
+				4461D668189AFB3A00B0308B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4461D65F189AFB3A00B0308B /* Project object */;
+}
